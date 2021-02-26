@@ -6,7 +6,7 @@ import './plugins/element.js'
 import router from './router'
 
 Vue.config.productionTip = false
-Vue.prototyoe.$echarts = Echarts
+Vue.prototype.$echarts = Echarts
 new Vue({
   router,
   render: h => h(App)
