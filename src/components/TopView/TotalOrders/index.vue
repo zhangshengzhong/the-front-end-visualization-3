@@ -5,11 +5,9 @@
 </template>
 
 <script>
-import CommonCard from '../../CommonCard'
+import commonCardMixin from '../../../mixins/commonCardMixin'
 export default {
-  components: {
-    CommonCard
-  }
+  mixins: [commonCardMixin]
 }
 </script>
 
