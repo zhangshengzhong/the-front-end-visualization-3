@@ -2,8 +2,8 @@
   <div class="home">
     我是home.vue
     <top-view></top-view>
-    <bottom-view></bottom-view>
     <sales-view></sales-view>
+    <bottom-view></bottom-view>
     <map-view></map-view>
   </div>
 </template>
